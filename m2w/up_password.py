@@ -39,6 +39,7 @@ def find_files(path, suffix=".md"):
 
     # Use a sub function
     def ff(path, suffix=".md"):
+        print("file_list: ", path)
         file_list = os.listdir(path)
         for file in file_list:
             cur_path = os.path.join(path, file)
@@ -86,8 +87,11 @@ def md_detect(path_markdown, path_legacy_json, verbose=True):
 
         # Gather new markdown files
         new = []
+        print("path_markdown: ", path_markdown)
         for path in path_markdown:
+            print("path: ", path)
             new = new + find_files(path, suffix=".md")
+            print("new_path: ", new)
         new = sorted(
             set(new), key=new.index
         )  # Keep unique elements. Ref: https://blog.csdn.net/u011361880/article/details/76237096

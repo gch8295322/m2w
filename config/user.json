@@ -1,52 +1,16 @@
 {
-	"web01": {
-        "domain": "https://blognas.hwb0307.com",
-        "username": "your_username",
-        "application_password": "your_rest_api",
-        "path_markdown": [
-            "E:/Github/m2w/@test/main",
-            "E:/Github/m2w/@test/main2"
-        ],
-        "post_metadata": {
-            "category": ["test"],
-            "tag": ["test"],
-            "status": "publish"
-        },
-        "path_legacy_json": "/config/legacy"
+    "web01": {
+    "path_markdown": ["D:/BaiduSyncdisk/m2w/blog"],
+    "symbol_new": "new",
+    "symbol_legacy": "legacy",
+    "domain": "https://blog.gyc0219.com",
+    "username": "gch8295322",
+    "application_password": "BWu3 n4FT 6NOx 44HU YZlD 76Mf",
+    "post_metadata": {
+        "category": ["test"],
+        "tag": ["test"],
+        "status": "publish"
     },
-
-    "web02": {
-        "domain": "https://blognas.hwb0307.com",
-        "username": "your_username",
-        "password": "your_password",
-        "path_markdown": [
-            "E:/Github/m2w/@test/main",
-            "E:/Github/m2w/@test/main2"
-        ],
-        "post_metadata": {
-            "category": ["test"],
-            "tag": ["test"],
-            "status": "publish"
-        },
-        "path_legacy_json": "/config/legacy"
-    },
-
-    "web03": {
-        "domain": "https://blognas.hwb0307.com",
-        "username": "your_username",
-        "application_password": "your_rest_api",
-        "password": "your_password",
-        "path_markdown": [
-            "E:/Github/m2w/@test/main",
-            "E:/Github/m2w/@test/main2"
-        ],
-        "post_metadata": {
-            "category": ["test"],
-            "tag": ["test"],
-            "status": "publish"
-        },
-        "path_legacy_json": "/config/legacy"
+    "path_legacy_json": "/config/legacy"
     }
-
-
 }
