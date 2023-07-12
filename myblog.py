@@ -19,7 +19,7 @@ import time
 # m2w version: 2.5.7+
 
 # The path of the config folder, where contains user.json and legacy*.json
-path_m2w = "D:/BaiduSyncdisk/m2w"
+path_m2w = "./"
 
 # Whether to force uploading a new post.
 # `force_upload=False` is suggested for routine maintaining.

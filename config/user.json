@@ -1,14 +1,14 @@
 {
     "web01": {
-    "path_markdown": ["D:/BaiduSyncdisk/m2w/blog"],
+    "path_markdown": ["./blog"],
     "symbol_new": "new",
     "symbol_legacy": "legacy",
     "domain": "https://blog.gyc0219.com",
     "username": "gch8295322",
     "application_password": "BWu3 n4FT 6NOx 44HU YZlD 76Mf",
     "post_metadata": {
-        "category": ["test"],
-        "tag": ["test"],
+        "category": ["技术记录, 生活足迹, 项目工程, 软件分享, 研究随笔"],
+        "tag": ["ChatGPT, 星露谷物语"],
         "status": "publish"
     },
     "path_legacy_json": "/config/legacy"
